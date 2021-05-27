@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Story</title>
+    <link rel="stylesheet" href="./styles/loading.css">
+    <link rel="stylesheet" href="./styles/parallax-bg.css">
+    <link rel="stylesheet" href="./styles/carrousel.css">
+    <link rel="stylesheet" href="./styles/menu.css">
+</head>
+<body>
+<div class="container-menu" id="ctn-menu">
+  <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+    <label for="abrir-cerrar" class="toggle-button">
+        <span class="cerrar" title="Cerrar">Cerrar</span>
+        <span class="abrir" title="Abrir">Abrir</span>
+    </label>
+</div>
+<div class="container-loading" id="container-loading">
+  <div class="scene-loading" style="--hue: 260; --saturation: 53; --lightness: 73">
+    <div class="word-loading">
+      <div class="letter__wrap-loading" style="--index: 0">
+        <div class="letter-loading" data-letter="C"><span class="letter__panel-loading" aria-hidden="true">C</span><span class="letter__panel-loading" aria-hidden="true">E</span><span class="letter__panel-loading" aria-hidden="true">C</span><span class="letter__panel-loading" aria-hidden="true">E</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 1">
+        <div class="letter-loading" data-letter="a"><span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading" aria-hidden="true">s</span><span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading" aria-hidden="true">s</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 2">
+        <div class="letter-loading" data-letter="r"><span class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading" aria-hidden="true">p</span><span class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading" aria-hidden="true">p</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 3">
+        <div class="letter-loading" data-letter="g"><span class="letter__panel-loading" aria-hidden="true">g</span><span class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading" aria-hidden="true">g</span><span class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 4">
+        <div class="letter-loading" data-letter="a"><span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 5">
+        <div class="letter-loading" data-letter="n"><span class="letter__panel-loading" aria-hidden="true">n</span><span class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading" aria-hidden="true">n</span><span class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 6">
+        <div class="letter-loading" data-letter="d"><span class="letter__panel-loading" aria-hidden="true">d</span><span class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading" aria-hidden="true">d</span><span class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading"></span></div>
+      </div>
+      <div class="letter__wrap-loading" style="--index: 7">
+        <div class="letter-loading" data-letter="o"><span class="letter__panel-loading" aria-hidden="true">o</span><span class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading" aria-hidden="true">o</span><span class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading"></span></div>
+      </div>
+    </div> 
+</div>   
+</div>
+
+<div class="ocultar parallax-ctn " id="parallax-ctn">
+  <section>
+    <img src="./asset/Fondo/Fondo2.jpg" id="bg-parallax">
+    <img src="./asset/Fondo/estrellas.png" id="bg-estrellas">
+    <img src="./asset/Fondo/Titulo.png" id="title-parallax">
+    <img src="./asset/Fondo/buzz-Lighyear.png" id="buzz-parallax">
+    <img src="./asset/Fondo/Woody.png" id="woody-parallax">
+  </section>  
+</div>
+
+<div class="ocultar container " id="container">
+  <div class="row">
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/woody.jpg');"></div>
+      <h2>Woody</h2>
+      <div class="slide">
+        <p>Su personaje más importante, siempre fue el juguete favorito de Andy</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/buzz-Lighyear.jpg');"></div>
+      <h2>Buzz Lighyear</h2>
+      <div class="slide">
+        <p>viene proporcionado por la ignorancia de Buzz acerca de su propia condición de juguete: él realmente
+            se cree un guardián estelar que ha aterrizado por accidente en un planeta lejano
+        </p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/Rex.jpg');"></div>
+      <h2>Rex</h2>
+      <div class="slide">
+        <p>Rex es nervioso, inseguro de sí mismo, asustadizo y torpe.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/marcianitos-de-pizza-planeta.jpg');"></div>
+      <h2>Marcianitos</h2>
+      <div class="slide">
+        <p>Son tres aliens verdes con tres ojos cada uno que viajaban en la furgoneta que utilizan los
+             juguetes para volver a casa en Toy Story 2.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/slinky.jpg');"></div>
+      <h2>Slinky</h2>
+      <div class="slide">
+        <p>Es un perro resorte.La mano derecha de Woody hasta la llegada de Buzz Lightyear.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/tiro-al-blanco.jpg');"></div>
+      <h2>Tiro al Blanco</h2>
+      <div class="slide">
+        <p>El fiel caballo de Woody en su programa "El Rodeo de Woody". Corre como el viento</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/señora-cara-de-papa.jpg');"></div>
+      <h2>Cara de papa</h2>
+      <div class="slide">
+        <p>Es mencionada como regalo de Navidad al final de la primera película y se la ve físicamente a partir de la segunda. Ejerce como mujer del Sr. Cara de Papa y, en las historias del muchacho, también como villana bajo el nombre de la Tuerta Betty</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/Hamm.png');"></div>
+      <h2>Hamm</h2>
+      <div class="slide">
+        <p>Hamm es quizá el juguete más inteligente dentro de los protagonistas. Es quien tiene mayor conocimiento del mundo exterior, a menudo muy familiarizado con los diversos aparatos que se le muestran, a veces discute mucho con Rex</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/Jessie.png');"></div>
+      <h2>Jessie</h2>
+      <div class="slide">
+        <p>Una muñeca vaquera intrépida y alegre que siempre está lista para una audaz aventura cuando se trata de ayudar a los necesitados. Hizo su debut en Toy Story 2, perteneciendo a la colección de Al de la serie "El Rodeo de Woody"</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="photo-container" style="background-image:url('./asset/images/cara-de-papa.jpg');"></div>
+      <h2>Sr cara de Papa</h2>
+      <div class="slide">
+        <p>Es algo gruñón, caprichoso y cínico, suele ser el primero en estar en contra de Woody.</p>
+      </div>
+    </div>
+  </div>
+</div> 
+<script src="./js/parallax.js"></script>
+</body>
+</html>
