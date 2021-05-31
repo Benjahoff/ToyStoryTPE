@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reserva</title>
+  <link rel="stylesheet" href="./styles/form.css" />
+  <link rel="stylesheet" href="./styles/menu.css" />
+  <link rel="stylesheet" href="./styles/loading.css" />
+</head>
+
+<body>
+  <div class="container-loading" id="container-loading">
+    <div class="scene-loading" style="--hue: 260; --saturation: 53; --lightness: 73">
+      <div class="word-loading">
+        <div class="letter__wrap-loading" style="--index: 0">
+          <div class="letter-loading" data-letter="C">
+            <span class="letter__panel-loading" aria-hidden="true">C</span><span class="letter__panel-loading"
+              aria-hidden="true">E</span><span class="letter__panel-loading" aria-hidden="true">C</span><span
+              class="letter__panel-loading" aria-hidden="true">E</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 1">
+          <div class="letter-loading" data-letter="a">
+            <span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading"
+              aria-hidden="true">s</span><span class="letter__panel-loading" aria-hidden="true">a</span><span
+              class="letter__panel-loading" aria-hidden="true">s</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 2">
+          <div class="letter-loading" data-letter="r">
+            <span class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading"
+              aria-hidden="true">p</span><span class="letter__panel-loading" aria-hidden="true">r</span><span
+              class="letter__panel-loading" aria-hidden="true">p</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 3">
+          <div class="letter-loading" data-letter="g">
+            <span class="letter__panel-loading" aria-hidden="true">g</span><span class="letter__panel-loading"
+              aria-hidden="true">e</span><span class="letter__panel-loading" aria-hidden="true">g</span><span
+              class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 4">
+          <div class="letter-loading" data-letter="a">
+            <span class="letter__panel-loading" aria-hidden="true">a</span><span class="letter__panel-loading"
+              aria-hidden="true">r</span><span class="letter__panel-loading" aria-hidden="true">a</span><span
+              class="letter__panel-loading" aria-hidden="true">r</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 5">
+          <div class="letter-loading" data-letter="n">
+            <span class="letter__panel-loading" aria-hidden="true">n</span><span class="letter__panel-loading"
+              aria-hidden="true">e</span><span class="letter__panel-loading" aria-hidden="true">n</span><span
+              class="letter__panel-loading" aria-hidden="true">e</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 6">
+          <div class="letter-loading" data-letter="d">
+            <span class="letter__panel-loading" aria-hidden="true">d</span><span class="letter__panel-loading"
+              aria-hidden="true">.</span><span class="letter__panel-loading" aria-hidden="true">d</span><span
+              class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+        <div class="letter__wrap-loading" style="--index: 7">
+          <div class="letter-loading" data-letter="o">
+            <span class="letter__panel-loading" aria-hidden="true">o</span><span class="letter__panel-loading"
+              aria-hidden="true">.</span><span class="letter__panel-loading" aria-hidden="true">o</span><span
+              class="letter__panel-loading" aria-hidden="true">.</span><span class="letter__panel-loading"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ocultar menuOptions">
+    <a href="./index.html" class="btn-menu first-element">Home</a>
+    <a href="./contact.html" class="btn-menu">Comentar Estreno</a>
+  </div>
+  <div class="ocultar container-menu" id="ctn-menu">
+    <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+    <label for="abrir-cerrar" class="toggle-button">
+      <span class="cerrar" title="Cerrar">Cerrar</span>
+      <span class="abrir" title="Abrir">Abrir</span>
+    </label>
+  </div>
+  <div class="ocultar signup-container">
+    <div class="left-container">
+      <h1>
+        <i class="fas fa-paw"></i>
+        COMENTARIO
+      </h1>
+      <div class="puppy">
+        <img src="./asset/images/forky.png" />
+      </div>
+    </div>
+    <div class="right-container">
+      <header>
+        <h1>Deja tu comentario del Estreno!</h1>
+        <div class="set">
+          <div class="name">
+            <label for="name">Nombre</label>
+            <input id="name" placeholder="Nombre" type="text" />
+          </div>
+        </div>
+        <div class="set">
+          <div class="mail">
+            <label for="mail">Mail</label>
+            <input id="mail" placeholder="Direccion de mail" type="text" />
+          </div>
+        </div>
+        <div class="set">
+          <div class="genero">
+            <label for="genero">Genero</label>
+            <div class="radio-container">
+              <input checked="" id="genero-femenino" name="genero" type="radio" value="femenino" />
+              <label for="genero-femenino">Femenino</label>
+              <input id="genero-masculino" name="genero" type="radio" value="masculino" />
+              <label for="genero-masculino">Masculino</label>
+            </div>
+          </div>
+        </div>
+        <div class="container-edad">
+          <label for="edad-participante">Edad</label>
+          <div class="radio-container">
+            <input checked="" id="edad-0-10" name="edad-participante" type="radio" value="0-10" />
+            <label for="edad-0-10">0-10</label>
+            <input id="edad-11-15" name="edad-participante" type="radio" value="11-15" />
+            <label for="edad-11-15">11-15</label>
+            <input id="edad-16-21" name="edad-participante" type="radio" value="16-21" />
+            <label for="edad-16-21">16-21</label>
+            <input id="edad-22+" name="edad-participante" type="radio" value="22+" />
+            <label for="edad-22+">22+</label>
+          </div>
+        </div>
+        <div class="set">
+          <div class="comentario">
+            <label for="name">Comentario</label>
+            <textarea id="name" rows="5" cols="50" maxlength="230" placeholder="Comentario..."></textarea>
+          </div>
+        </div>
+      </header>
+      <footer>
+        <div class="set">
+          <a href="./index.html" id="next">Enviar</a>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <script src="./js/menu.js"></script>
+  <script src="./js/form.js"></script>
+</body>
+
+</html>
