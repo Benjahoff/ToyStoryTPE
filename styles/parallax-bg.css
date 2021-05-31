@@ -1,0 +1,98 @@
+.parallax-ctn {
+  margin: 0;
+  padding: 0;
+
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 110vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section img {
+  position: absolute;
+}
+section::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #52a6cb, transparent); 
+  z-index: 5;
+}
+#bg-parallax {
+  top: 78%;
+  left: 0;
+  width: 110%;
+  object-fit: cover;
+  pointer-events: none;
+  z-index: 3;
+}
+#bg-estrellas {
+  top: 0;
+  margin-bottom: 20%;
+  left: -1%;
+  background-repeat: repeat-x;
+  animation: pulse 3s;
+  z-index: 2;
+  
+}
+#title-parallax {
+  top: 0;
+  width: 20%;
+  height: 30%;
+  left: 40%;
+  z-index: 7;
+  animation: slideInDown 3s;
+}
+
+#buzz-parallax {
+  animation:   duration timing-function delay iteration-count direction fill-mode;
+  top: 47%;
+  width: 28%;
+  height: 43%;
+  right: 0px;
+  animation: pulse 3s;
+  z-index: 3;
+
+}
+#woody-parallax {
+  top: 35%;
+  width: 15%;
+  height: 55%;
+  left: 0px;
+  animation: pulse 3s;
+  z-index: 3;
+
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes slideInDown {
+  0% {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  } 
