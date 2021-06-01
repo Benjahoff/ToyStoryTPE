@@ -68,6 +68,7 @@ body {
   .letter__panel-loading {
     align-items: center;
     background: var(--panel);
+    box-sizing: border-box;
     border: 5px #185396 solid;
     display: flex;
     height: calc(var(--size) * 1px);
