@@ -4,7 +4,7 @@
 
 }
 
-section {
+.section-parallax {
   position: relative;
   width: 100%;
   height: 110vh;
@@ -13,10 +13,10 @@ section {
   justify-content: center;
   align-items: center;
 }
-section img {
+.section-parallax img {
   position: absolute;
 }
-section::before {
+.section-parallax::before {
   content: "";
   position: absolute;
   bottom: 0;

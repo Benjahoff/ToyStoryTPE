@@ -7,32 +7,25 @@
     <title>Toy Story</title>
     <link rel="stylesheet" href="./styles/loading.css" />
     <link rel="stylesheet" href="./styles/parallax-bg.css" />
-    <link rel="stylesheet" href="./styles/carrousel.css" />
+    <link rel="stylesheet" href="./styles/galeria.css" />
     <link rel="stylesheet" href="./styles/woodyRun.css" />
     <link rel="stylesheet" href="./styles/timer.css" />
     <link rel="stylesheet" href="./styles/accordionMenu.css" />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" href="./styles/menu.css" />
-
-    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap"
       rel="stylesheet"
-    />
-
-    <!-- Materialize.css -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
   </head>
   <body>
     <div class="ocultar menuOptions">
       <a href="./index.html" class="btn-menu first-element">Home</a>
       <a href="./contact.html" class="btn-menu">Comentar Estreno</a>
+      <a href="https://www.youtube.com/watch?v=VhCDgv4x_pU&ab_channel=DisneyEspa%C3%B1a" class="btn-menu">Toy story 1</a>
+      <a href="https://www.youtube.com/watch?v=shYEcWkifdQ&ab_channel=ScratPolisxD" class="btn-menu">Toy story 2</a>
+      <a href="https://www.youtube.com/watch?v=xkPhZHt5TKM&ab_channel=dvdgoshop" class="btn-menu">Toy story 3</a>
+      <a href="https://www.youtube.com/watch?v=f33yJZ5uOpU&ab_channel=SensaCineTRAILERS" class="btn-menu">Toy story 4</a>
+      <a href="https://www.youtube.com/watch?v=f33yJZ5uOpU&ab_channel=SensaCineTRAILERS" class="btn-menu">Fiesta Saurus</a>
     </div>
     <div class="ocultar container-menu" id="ctn-menu">
       <input id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
@@ -125,7 +118,7 @@
     </div>
 
     <div class="ocultar parallax-ctn" id="parallax-ctn">
-      <section>
+      <section class="section-parallax">
         <img src="./asset/Fondo/Fondo2.jpg" id="bg-parallax" />
         <img src="./asset/Fondo/estrellas.png" id="bg-estrellas" />
         <img src="./asset/Fondo/Titulo.png" id="title-parallax" />
@@ -177,12 +170,6 @@
             style="background-image: url('./asset/images/woody.jpg')"
           ></div>
           <h2>Woody</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Su personaje más importante, siempre fue el juguete favorito de
-              Andy
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -190,13 +177,6 @@
             style="background-image: url('./asset/images/buzz-Lighyear.jpg')"
           ></div>
           <h2>Buzz Lighyear</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              viene proporcionado por la ignorancia de Buzz acerca de su propia
-              condición de juguete: él realmente se cree un guardián estelar que
-              ha aterrizado por accidente en un planeta lejano
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -204,11 +184,6 @@
             style="background-image: url('./asset/images/Rex.jpg')"
           ></div>
           <h2>Rex</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Rex es nervioso, inseguro de sí mismo, asustadizo y torpe.
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -218,13 +193,6 @@
             "
           ></div>
           <h2>Marcianitos</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Son tres aliens verdes con tres ojos cada uno que viajaban en la
-              furgoneta que utilizan los juguetes para volver a casa en Toy
-              Story 2.
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -232,12 +200,6 @@
             style="background-image: url('./asset/images/slinky.jpg')"
           ></div>
           <h2>Slinky</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Es un perro resorte.La mano derecha de Woody hasta la llegada de
-              Buzz Lightyear.
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -245,12 +207,6 @@
             style="background-image: url('./asset/images/tiro-al-blanco.jpg')"
           ></div>
           <h2>Tiro al Blanco</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              El fiel caballo de Woody en su programa "El Rodeo de Woody". Corre
-              como el viento
-            </p>
-          </div>
         </div>
       </div>
       <div class="row-gallery">
@@ -262,14 +218,6 @@
             "
           ></div>
           <h2>Cara de papa</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Es mencionada como regalo de Navidad al final de la primera
-              película y se la ve físicamente a partir de la segunda. Ejerce
-              como mujer del Sr. Cara de Papa y, en las historias del muchacho,
-              también como villana bajo el nombre de la Tuerta Betty
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -277,14 +225,6 @@
             style="background-image: url('./asset/images/Hamm.png')"
           ></div>
           <h2>Hamm</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Hamm es quizá el juguete más inteligente dentro de los
-              protagonistas. Es quien tiene mayor conocimiento del mundo
-              exterior, a menudo muy familiarizado con los diversos aparatos que
-              se le muestran, a veces discute mucho con Rex
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -292,14 +232,6 @@
             style="background-image: url('./asset/images/Jessie.png')"
           ></div>
           <h2>Jessie</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Una muñeca vaquera intrépida y alegre que siempre está lista para
-              una audaz aventura cuando se trata de ayudar a los necesitados.
-              Hizo su debut en Toy Story 2, perteneciendo a la colección de Al
-              de la serie "El Rodeo de Woody"
-            </p>
-          </div>
         </div>
         <div class="col-gallery">
           <div
@@ -307,53 +239,45 @@
             style="background-image: url('./asset/images/cara-de-papa.jpg')"
           ></div>
           <h2>Sr cara de Papa</h2>
-          <div class="slide-gallery">
-            <p class="title-gallery">
-              Es algo gruñón, caprichoso y cínico, suele ser el primero en estar
-              en contra de Woody.
-            </p>
-          </div>
         </div>
       </div>
     </div>
     <!-- Carrousel de posters  -->
     <div class="ocultar containerCarrousel">
-      <div class="row">
-        <div class="col s12">
-          <h1 class="center-align titulo">Posters</h1>
-          <div class="carousel center-align">
-            <div class="carousel-item">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner2.jpg" />
-            </div>
-
-            <div class="carousel-item">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner5.jpg" />
-            </div>
-
-            <div class="carousel-item">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner6.jpg" />
-            </div>
-
-            <div class="carousel-item">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner3.jpg" />
-            </div>
-
-            <div class="carousel-item fullWidth">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner4.jpg" />
-            </div>
-
-            <div class="carousel-item">
-              <div class="linea-division"></div>
-              <img src="./asset/carrousel/banner1.jpg" />
-            </div>
-          </div>
-        </div>
+      <div id="myModal" class="modal">
+        <span onclick="closePopup()" class="close">&times;</span>
+        <div id="caption"></div>
       </div>
+      
+      <section class="nw">
+        <div class="slideshow-container">
+      
+          <div class="mySlides fade one">
+            <div class="numbertext">1 / 4</div>
+            <img src="./asset/carrousel/banner1.jpg" style="width:100%" alt="nature_river" >
+          </div>
+      
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 4</div>
+            <img src="./asset/carrousel/banner2.jpg" style="width:100%" alt="air_plane" >
+          </div>
+      
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 4</div>
+            <img src="./asset/carrousel/banner3.jpg" style="width:100%" alt="city_taxi">
+          </div>
+      
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 4</div>
+            <img src="./asset/carrousel/banner4.jpg" style="width:100%" alt="beach">
+          </div>
+      
+          <a class="prev">&#10094;</a>
+          <a class="next">&#10095;</a>
+      
+        </div>
+        <br>
+      </section>
     </div>
     <script src="./js/timer.js"></script>
     <script src="./js/parallax.js"></script>
@@ -361,10 +285,6 @@
 
     <!-- Javascrip carrousel, cdn materialize y script fontawesome -->
     <script src="./js/carrousel.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/3ea4e2164c.js"
-      crossorigin="anonymous"
-    ></script>
+
   </body>
 </html>
