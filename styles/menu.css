@@ -65,6 +65,7 @@ input#abrir-cerrar:checked + .toggle-button:after {
 }
 .btn-menu{
     display: block;
+    text-decoration: none;
     margin-left:47%;
     width: 53%;
     height: 5vh;
